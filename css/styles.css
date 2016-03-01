@@ -9,6 +9,10 @@ html {
   height: 100%;
   }
 
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+
 .wrapper {
   /*display: flex;*/
   flex-direction: column;
@@ -135,6 +139,7 @@ input[type="search"] {
   flex-direction: column;
   justify-content: space-between;
   align-items:center;
+  font-family: sans-serif;
 }
 
 .welcome h3 {
