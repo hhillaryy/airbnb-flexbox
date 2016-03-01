@@ -10,8 +10,10 @@ html {
   }
 
 .wrapper {
-  display: flex;
+  /*display: flex;*/
+  flex-direction: column;
   max-width: 1750px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -149,4 +151,12 @@ input[type="search"] {
 #works {
   padding: 1px 10px;
   background-color: rgba(204, 204, 204, 0.4);
+}
+
+/*DIV CONTENT*/
+
+.content {
+  height: 750px;
+  width: 100%;
+  color: red;
 }
