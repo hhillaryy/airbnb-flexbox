@@ -11,13 +11,14 @@ html {
 
   body {
     font-family: 'Lato', sans-serif;
+    height: 100%;
   }
 
 .wrapper {
-  /*display: flex;*/
+  display: flex;
   flex-direction: column;
   max-width: 1750px;
-  height: auto;
+  height: 100vh;
   margin: 0 auto;
 }
 
@@ -57,13 +58,15 @@ html {
 
 .cover {
 background: url("../img/background.jpg");
-height: 600px;
+height: 750px;
 width: 100%;
 background-repeat: no-repeat;
 background-size: cover;
 /*background-position: center;*/
 overflow: auto;
 position: absolute;
+border: 2px solid purple;
+
 }
 
 .navbar {
@@ -161,7 +164,10 @@ input[type="search"] {
 /*DIV CONTENT*/
 
 .content {
+  border: 1px solid green;
   height: 750px;
   width: 100%;
-  color: red;
+  color: orange;
+  position: relative;
+  align-items: center;
 }
