@@ -15,8 +15,7 @@ html {
   }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
+  /*display: flex;*/
   max-width: 1750px;
   height: 100vh;
   margin: 0 auto;
@@ -63,9 +62,7 @@ width: 100%;
 background-repeat: no-repeat;
 background-size: cover;
 /*background-position: center;*/
-overflow: auto;
-position: absolute;
-border: 2px solid purple;
+/*position: absolute;*/
 
 }
 
@@ -164,10 +161,22 @@ input[type="search"] {
 /*DIV CONTENT*/
 
 .content {
-  border: 1px solid green;
-  height: 750px;
+  display: flex;
+  flex-direction: row;
   width: 100%;
   color: orange;
   position: relative;
   align-items: center;
+}
+
+.content1 {
+  display: flex;
+  border: 2px solid green;
+  flex: 1
+}
+
+.infoText {
+  display: flex;
+  border: 2px solid pink;
+  flex:1
 }
